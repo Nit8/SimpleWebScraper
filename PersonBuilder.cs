@@ -14,14 +14,11 @@ namespace SimpleWebScraper
         private int _eyecolor;
         private int _haircolor;
 
-        public PersonBuilder()
-        {
-            SetDefaults();
-        }
+        public PersonBuilder() => SetDefaults();
         private void SetDefaults()
         {
-            _firstname = string.Empty;
-            _lastname = "Jaiswal";
+            _firstname = "Admin";
+            _lastname = "User";
             _age = 0;
             _eyecolor = 153;
             _haircolor = 153;
