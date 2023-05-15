@@ -8,11 +8,21 @@ namespace SimpleWebScraper
     {
         static void Main(string[] args)
         {
-            Car ferrari =new Ferrari();  
-            Car tata = new Tata();
-            Person person = new Person(tata);
-            person.Drive();
-
+            Hobbie[] hobbies = { new Hobbie(1, "WALKING"), new Hobbie(2, "RUNNING"), new Hobbie(3, "GYM") };
+            var hobbie = hobbies.Where(h => h.Name.Equals("Walking"));
+            var hobbiewithidgreaterthan1 = hobbies.Where(h => h.Id>1);
+            var anotherHobbie=from h in hobbies where h.Name.Equals("Walking") select h.Name;
+            Console.WriteLine(anotherHobbie);
         }
+    }
+    class Hobbie
+    {
+        public Hobbie(int id,string name)
+        {
+            Id = id;
+            Name = name;
+        }
+        public int Id { get; private set; }
+        public string Name { get; private set; }
     }
 }
