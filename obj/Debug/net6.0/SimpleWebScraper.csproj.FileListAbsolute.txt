@@ -1,0 +1,15 @@
+D:\Projects\SimpleWebScraper\bin\Debug\net6.0\SimpleWebScraper.exe
+D:\Projects\SimpleWebScraper\bin\Debug\net6.0\SimpleWebScraper.deps.json
+D:\Projects\SimpleWebScraper\bin\Debug\net6.0\SimpleWebScraper.runtimeconfig.json
+D:\Projects\SimpleWebScraper\bin\Debug\net6.0\SimpleWebScraper.dll
+D:\Projects\SimpleWebScraper\bin\Debug\net6.0\SimpleWebScraper.pdb
+D:\Projects\SimpleWebScraper\obj\Debug\net6.0\SimpleWebScraper.csproj.AssemblyReference.cache
+D:\Projects\SimpleWebScraper\obj\Debug\net6.0\SimpleWebScraper.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\SimpleWebScraper\obj\Debug\net6.0\SimpleWebScraper.AssemblyInfoInputs.cache
+D:\Projects\SimpleWebScraper\obj\Debug\net6.0\SimpleWebScraper.AssemblyInfo.cs
+D:\Projects\SimpleWebScraper\obj\Debug\net6.0\SimpleWebScraper.csproj.CoreCompileInputs.cache
+D:\Projects\SimpleWebScraper\obj\Debug\net6.0\SimpleWebScraper.dll
+D:\Projects\SimpleWebScraper\obj\Debug\net6.0\refint\SimpleWebScraper.dll
+D:\Projects\SimpleWebScraper\obj\Debug\net6.0\SimpleWebScraper.pdb
+D:\Projects\SimpleWebScraper\obj\Debug\net6.0\SimpleWebScraper.genruntimeconfig.cache
+D:\Projects\SimpleWebScraper\obj\Debug\net6.0\ref\SimpleWebScraper.dll
