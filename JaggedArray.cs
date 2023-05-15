@@ -7,12 +7,11 @@ using System.Threading.Tasks;
 
 namespace SimpleWebScraper
 {
-    internal class StringBuilderLearn
+    internal class JaggedArray
     {
-        public StringBuilderLearn()
+        public JaggedArray()
         {
-            StringBuilder myString1 = new StringBuilder();
-            myString1.Append("Apple");
+            int[][] jagged = new int[10][];
         }
         
     }
