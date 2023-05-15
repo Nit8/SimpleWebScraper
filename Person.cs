@@ -8,19 +8,15 @@ namespace SimpleWebScraper
 {
     internal class Person
     {
-        public Person(string FirstName,string LastName, int Age, int EyeColor, int HairColor)
+        private ICar _car;
+        public Person(ICar car)
         {
-            this.FirstName=FirstName;
-            this.LastName=LastName;
-            this.Age=Age;
-            this.EyeColor=EyeColor;
-            this.HairColor=HairColor;
+            _car = car;
         }
-        public string FirstName { get; set; }
-        public string LastName { get; set; }
-        public int Age { get; set; }
-        public int EyeColor { get; set; }
-        public int HairColor { get; set; }
-        
+        public void Drive()
+        {
+            _car.TurnOnOff();
+            _car.Drive();
+        }
     }
 }
