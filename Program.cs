@@ -8,8 +8,8 @@ namespace SimpleWebScraper
     {
         static void Main(string[] args)
         {
-            Ferrari ferrari =new Ferrari();  
-            Tata tata = new Tata();
+            Car ferrari =new Ferrari();  
+            Car tata = new Tata();
             Person person = new Person(tata);
             person.Drive();
 
