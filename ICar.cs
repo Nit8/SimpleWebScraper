@@ -7,6 +7,9 @@ using System.Threading.Tasks;
 namespace SimpleWebScraper
 {
     //creates a layer of abbstraction
+    //CANNOT HAVE FIELDS, CONSTRUCTORS
+    //JUST HAVE THE SIGNATURES
+
     internal interface ICar
     {
         void TurnOnOff();

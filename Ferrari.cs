@@ -6,20 +6,15 @@ using System.Threading.Tasks;
 
 namespace SimpleWebScraper
 {
-    internal class Ferrari: ICar
+    internal class Ferrari: Car
     {
-        private bool _on;
-        public void TurnOnOff()
-        {
-            _on = !_on;
-            Console.WriteLine(_on ? "The Ferrari is On!" : "The Ferrari is Off");
-        }
-        public void Drive()
+        public override void Drive()
         {
             if (_on)
             {
                 Console.WriteLine("Drive Ferrari");
-            } else
+            }
+            else
             {
                 Console.WriteLine("Have to Start Ferrari First");
             }

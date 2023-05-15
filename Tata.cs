@@ -6,15 +6,10 @@ using System.Threading.Tasks;
 
 namespace SimpleWebScraper
 {
-    internal class Tata : ICar
+    internal class Tata : Car
     {
-        private bool _on;
-        public void TurnOnOff()
-        {
-            _on = !_on;
-            Console.WriteLine(_on ? "The Tata is On!" : "The Tata is Off");
-        }
-        public void Drive()
+
+        public override void Drive()
         {
             if (_on)
             {

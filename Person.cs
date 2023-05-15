@@ -8,8 +8,8 @@ namespace SimpleWebScraper
 {
     internal class Person
     {
-        private ICar _car;
-        public Person(ICar car)
+        private Car _car;
+        public Person(Car car)
         {
             _car = car;
         }
